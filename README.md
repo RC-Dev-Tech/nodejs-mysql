@@ -69,5 +69,5 @@
 [^1]: 由於該範例是著重在MySQL(CURD)的操作，所以安裝MySQL跟其操作細節，這邊就不多加說明.
 [^2]: 同上.
 [^3]: 在這個範例中我們需要安裝部分套件，指令如下：<br>
-`npm install mysql` <br>
+`npm install mysql --save` <br>
 因為這個套件已經有被安裝並整合在package.json中，所以這邊直接下**npm install --save**的指令就好
