@@ -36,7 +36,7 @@ createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建�
 
 <br>
 
-實作如何連接數據庫以及進行數據庫的操作(CURD)
+這邊會實作如何連接數據庫以及進行數據庫的操作(CURD)
 - C - 建立資料 (Create)
 - R - 讀取資料 (Read)
 - U - 更新資料 (Update)
