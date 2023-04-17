@@ -1,4 +1,5 @@
 {
+    "exsample_mode" : 2,
     "portal" : {
         "port" : 3001
     }

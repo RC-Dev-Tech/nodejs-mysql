@@ -17,12 +17,36 @@
 <br>
 
 ## 簡介
+***重點1:*** <br>
+mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br>
+其中，mysql 套件在舊版 Node.js 中使用較多，而 mysql2 則是較新的版本。<br>
+如果你正在使用較新的 Node.js 版本，建議使用 mysql2 套件。<br>
+<br>
+
+***重點2:*** <br>
+createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建立與資料庫的連線。<br>
+不同之處在於 createConnection 是建立單一連線，而 createPool 則是建立一個連線池，可以同時處理多個連線。<br>
+<br>
+使用 createConnection 時，每次呼叫都會建立一個新的連線物件，需要手動釋放連線資源。<br>
+而使用 createPool 則是在一開始建立一個連線池，之後每次需要連線時都從連線池中取出一個可用的連線物件，<br>
+執行完資料庫操作後，將連線歸還至連線池中，這樣可以避免每次都重新建立連線，提高了效能和資源利用率。<br>
+<br>
+簡單來說，如果是單線程、對資料庫的操作較少、不需要支援多執行緒，可以考慮使用 createConnection。<br>
+如果需要支援多執行緒，或者同時需要處理多個資料庫請求，可以考慮使用 createPool。<br>
+
+<br>
+
 實作如何連接數據庫以及進行數據庫的操作(CURD)
 - C - 建立資料 (Create)
 - R - 讀取資料 (Read)
 - U - 更新資料 (Update)
 - D - 刪除資料 (Delete)
 
+<br>
+
+實作範例:
+- [Example1](https://github.com/RC-Dev-Tech/nodejs-mysql/blob/main/src/examples/example1.ts) - MySQL基本使用(CRUD).
+- [Example2](https://github.com/RC-Dev-Tech/nodejs-mysql/blob/main/src/examples/example2.ts) - MySQL非同步使用(CRUD).
 
 ---
 <br>
