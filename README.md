@@ -79,6 +79,7 @@ createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建�
 ## 參考資料
 * [Sean Yeh - MySQL資料庫的安裝與基本操作](https://medium.com/web-design-zone/mysql%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C-f36a079afd85) <br>
 * [iThome - MySQL Workbench 使用](https://ithelp.ithome.com.tw/articles/10215161) <br>
+* [MySQL Workbench 如何備份與還原資料庫](https://ithelp.ithome.com.tw/articles/10282728) <br>
 * [RUNOOB - Node.js 連接使用MySQL](https://www.runoob.com/nodejs/nodejs-mysql.html) <br>
 * [Node.js 系列學習日誌 - 連接MySQL並實現CRUD操作-資料存取前的準備](https://ithelp.ithome.com.tw/articles/10160090) <br>
 * [比較 npm中的mysql和mysql2](https://npmcompare.com/compare/mysql,mysql2) <br>
