@@ -1,11 +1,12 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - MySQL 數據庫的操作(CURD)
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
-<br>
+---
 
 <!--ts-->
-## 目錄
+## 目錄:
 * [簡介](#簡介)
+* [實作範例](#實作範例)
 * [使用套件](#使用套件)
 * [操作說明](#操作說明)
 * [延伸項目](#延伸項目)
@@ -14,9 +15,8 @@
 <!--te-->
 
 ---
-<br>
 
-## 簡介
+## 簡介:
 ***重點1:*** <br>
 mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br>
 其中，mysql 套件在舊版 Node.js 中使用較多，而 mysql2 則是較新的版本。<br>
@@ -44,20 +44,18 @@ createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建�
 
 <br>
 
-實作範例:
+## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-mysql/blob/main/src/examples/example1.ts) - MySQL基本使用(CRUD).
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-mysql/blob/main/src/examples/example2.ts) - MySQL非同步使用(CRUD).
 
 ---
-<br>
 
-## 使用套件.
+## 使用套件:
 - mysql
 
 ---
-<br>
 
-## 操作說明.
+## 操作說明:
 #### 1. 安裝MySQL[^1]
 > 請自行上網查詢，或著可以參考下方的分享資料.
 #### 2. 安裝Workbench[^2]
@@ -68,15 +66,13 @@ createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建�
 > npm run start
 
 ---
-<br>
 
-## 延伸項目
+## 延伸項目:
 * [NodeJs 系列實作](https://github.com/RC-Dev-Tech/nodejs-index) <br>
 
 ---
-<br>
 
-## 參考資料
+## 參考資料:
 * [Sean Yeh - MySQL資料庫的安裝與基本操作](https://medium.com/web-design-zone/mysql%E8%B3%87%E6%96%99%E5%BA%AB%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C-f36a079afd85) <br>
 * [iThome - MySQL Workbench 使用](https://ithelp.ithome.com.tw/articles/10215161) <br>
 * [MySQL Workbench 如何備份與還原資料庫](https://ithelp.ithome.com.tw/articles/10282728) <br>
@@ -86,10 +82,13 @@ createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建�
 * [解決Node.js Mysql客戶端不支援認證協議所引發的"ER_NOT_SUPPORTED_AUTH_MODE問題"](https://waylau.com/node.js-mysql-client-does-not-support-authentication-protocol/) <br>
 
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
+
 ---
+
 ## 備註：
 [^1]: 由於該範例是著重在MySQL(CURD)的操作，所以安裝MySQL跟其操作細節，這邊就不多加說明.
 [^2]: 同上.
