@@ -42,7 +42,7 @@ createPool 和 createConnection 都是 MySQL 模組提供的函式，用於建�
 - U - 更新資料 (Update)
 - D - 刪除資料 (Delete)
 
-<br>
+---
 
 ## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-mysql/blob/main/src/examples/example1.ts) - MySQL基本使用(CRUD).
